@@ -1,0 +1,54 @@
+.FirstComponent {
+  height: 100vh;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  color: white;
+  clip-path: polygon()
+}
+
+.bg-video {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  z-index: -1;
+  /* opacity: .1; */
+  overflow: hidden;
+}
+.bg-video__content {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
+.socialMedia {
+  position: absolute;
+  top: 1rem;
+  left: 50%;
+  transform: translate(-50%, 2rem);
+}
+.socialMedia > * {
+  transition: all 0.3s;
+  color: white;
+}
+.socialMedia > *:not(:last-child) {
+  margin-right: 1.3rem;
+}
+.socialMedia > *:hover {
+  transform: scale(1.5);
+  padding: 0 1rem;
+  color: rgb(11, 219, 247);
+}
+
+.fa-lg {
+  font-size: 6rem;
+}
+
+.typist {
+  font-size: 4.5rem;
+}

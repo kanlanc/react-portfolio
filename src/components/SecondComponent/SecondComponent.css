@@ -1,0 +1,31 @@
+.SecondComponent{
+    position: relative;
+    /* height: 80rem; */
+    background-image:linear-gradient(to bottom right,#CA0260,#20000F); 
+    color: white;
+    transform: skew(0,-5deg);
+    z-index: -3;
+    padding: 6rem 0;
+    margin-top:-6rem;
+}
+
+
+.col{
+    flex:0 0 25.5555%;
+}
+
+.SecondComponent1{
+    transform: skew(0,5deg);
+}
+
+.SecondComponent__icons{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-top:3rem;
+}
+
+.SecondComponent__icon__style{
+    font-size: 20rem;
+    padding: 3rem 5rem;
+}
