@@ -1,5 +1,6 @@
 
 .FourthComponent {
+  position: relative;
   z-index: -1000;
   background: linear-gradient(160deg, #02ccba, #aa7ecd);
   transform-origin: left bottom;

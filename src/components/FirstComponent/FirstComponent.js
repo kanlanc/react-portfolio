@@ -20,10 +20,7 @@ class FirstComponent extends Component {
           </video>
         </div>
         <div className="socialMedia">
-          <a
-            href="mailto:saivicky2012@gmail.com"
-            className="animated flipInY "
-          >
+          <a href="mailto:saivicky2012@gmail.com" className="animated flipInY ">
             <i className="fa fa-envelope fa-lg" aria-hidden="true" />
           </a>
           <a
@@ -51,8 +48,9 @@ class FirstComponent extends Component {
             <i className="fa fa-file-pdf-o fa-lg" aria-hidden="true" />
           </a>
         </div>
-        <div className="typist">
-          <Typist>
+
+        <Typist>
+          <div className="typist">
             <span>Hi. I'm Vikranth</span>
             <Typist.Backspace count={8} delay={200} />
             <span> a Full Stack Web Developer</span>
@@ -64,9 +62,11 @@ class FirstComponent extends Component {
             <span> Vikranth</span>
             <Typist.Delay ms={500} />
             <br />
-            <span style={{ fontSize: "2.5rem" }}>I am a developer</span>
-          </Typist>
-        </div>
+          </div>
+          <div className="">
+            <span style={{ fontSize: "2.5rem",padding:"1rem 1.5rem",backgroundColor: "rgba(0, 0, 0, .5)" }}>I am a developer</span>
+          </div>
+        </Typist>
       </section>
     );
   }
