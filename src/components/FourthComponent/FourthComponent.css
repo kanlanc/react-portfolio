@@ -1,0 +1,20 @@
+
+.FourthComponent {
+  z-index: -1000;
+  background: linear-gradient(160deg, #02ccba, #aa7ecd);
+  transform-origin: left bottom;
+  color: #fff;
+  font-size: 3em;
+  padding: 4%;
+  transform: skew(0deg, -5deg);
+  margin-top: 5%;
+}
+
+.FourthComponent1 {
+  
+  transform: skew(0deg, 5deg);
+}
+
+
+
+

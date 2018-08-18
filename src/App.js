@@ -3,6 +3,8 @@ import React, { Component } from 'react';
 import './App.css';
 import FirstComponent from "./components/FirstComponent/FirstComponent";
 import SecondComponent from "./components/SecondComponent/SecondComponent";
+import ThirdComponent from "./components/ThirdComponent/ThirdComponent";
+import FourthComponent from "./components/FourthComponent/FourthComponent";
 
 
 class App extends Component {
@@ -11,6 +13,8 @@ class App extends Component {
       <div className="App">
         <FirstComponent/>
         <SecondComponent/>
+        <ThirdComponent/>
+        <FourthComponent/>
       </div>
     );
   }
